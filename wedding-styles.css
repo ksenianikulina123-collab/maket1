@@ -131,7 +131,19 @@
     .time-small,
     .small-subheading {
         font-size: 12px;  /* было 7px — критично увеличили */
-    }
+   /* Подключение шрифта Gogol */
+@font-face {
+    font-family: 'Gogol';
+    src: url('https://rawcdn.githack.com/ksenianikulina123-collab/maket1/89c945737c5bc108e888c976e61f5521d20c5e0d/ofont.ru_Gogol%20(1).woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Применение ко всем текстам на странице (по желанию) */
+body, .tn-atom, .t-text, .t-title, .t-descr, [class*="t-"] {
+    font-family: 'Gogol', sans-serif !important;
+} }
 
     .phone-number {
         font-size: 16px;  /* было 10px */
@@ -154,4 +166,16 @@
     .tip-text { font-size: 20px; }
     .subheading, .route, .loc, .countdown { font-size: 13px; }
     .phone-number { font-size: 15px; }
+/* Подключение шрифта Gogol */
+@font-face {
+    font-family: 'Gogol';
+    src: url('https://rawcdn.githack.com/ksenianikulina123-collab/maket1/89c945737c5bc108e888c976e61f5521d20c5e0d/ofont.ru_Gogol%20(1).woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+/* Применение ко всем текстам на странице (по желанию) */
+body, .tn-atom, .t-text, .t-title, .t-descr, [class*="t-"] {
+    font-family: 'Gogol', sans-serif !important;
+}}
