@@ -99,4 +99,59 @@
 .countdown {
     font-family: 'NewYork', serif;
     font-size: 12px;
+/* ========== АДАПТАЦИЯ ДЛЯ МОБИЛЬНЫХ (ширина экрана до 640px) ========== */
+@media (max-width: 640px) {
+
+    .bride-name,
+    .groom-name {
+        font-size: 28px;  /* было 32px */
+    }
+
+    .wedding-date {
+        font-size: 36px;  /* было 48px */
+    }
+
+    .tip-text {
+        font-size: 24px;  /* было 32px */
+    }
+
+    .main-heading {
+        font-size: 32px;  /* было 36px */
+    }
+
+    .subheading {
+        font-size: 14px;  /* было 10px */
+    }
+
+    .route,
+    .loc {
+        font-size: 14px;  /* было 12px */
+    }
+
+    .time-small,
+    .small-subheading {
+        font-size: 12px;  /* было 7px — критично увеличили */
+    }
+
+    .phone-number {
+        font-size: 16px;  /* было 10px */
+    }
+
+    .final-names {
+        font-size: 22px;  /* было 24px */
+    }
+
+    .countdown {
+        font-size: 14px;  /* было 12px */
+    }
+}
+
+/* Если экран совсем маленький (до 480px) — можно ещё немного увеличить */
+@media (max-width: 480px) {
+    .bride-name, .groom-name { font-size: 24px; }
+    .wedding-date { font-size: 30px; }
+    .main-heading { font-size: 28px; }
+    .tip-text { font-size: 20px; }
+    .subheading, .route, .loc, .countdown { font-size: 13px; }
+    .phone-number { font-size: 15px; }
 }
