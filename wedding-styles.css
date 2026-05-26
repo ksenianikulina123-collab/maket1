@@ -1,0 +1,102 @@
+/* ========== ПОДКЛЮЧЕНИЕ ШРИФТОВ ========== */
+@font-face {
+    font-family: 'Denistina';
+    src: url('https://cdn.jsdelivr.net/gh/ksenianikulina123-collab/maket1@main/denistina_en.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Anticva';
+    src: url('https://cdn.jsdelivr.net/gh/ksenianikulina123-collab/maket1@main/Anticva-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NewYork';
+    src: url('https://cdn.jsdelivr.net/gh/ksenianikulina123-collab/maket1@main/NewYork.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ========== КЛАССЫ ДЛЯ РАЗНЫХ ЭЛЕМЕНТОВ ========== */
+
+/* 1. Имя невесты */
+.bride-name {
+    font-family: 'Denistina', cursive;
+    font-size: 32px;
+}
+
+/* 2. Имя жениха */
+.groom-name {
+    font-family: 'Denistina', cursive;
+    font-size: 32px;
+}
+
+/* 3. Дата свадьбы */
+.wedding-date {
+    font-family: 'Anticva', serif;
+    font-size: 48px;
+}
+
+/* 4. Подсказка (tip-text) */
+.tip-text {
+    font-family: 'Denistina', cursive;
+    font-size: 32px;
+}
+
+/* 5. Заголовок (main-heading) */
+.main-heading {
+    font-family: 'Denistina', cursive;
+    font-size: 36px;
+}
+
+/* 6. Подзаголовок (subheading) */
+.subheading {
+    font-family: 'NewYork', serif;
+    font-size: 10px;
+}
+
+/* 7. Маршрут (route) */
+.route {
+    font-family: 'NewYork', serif;
+    font-size: 12px;
+}
+
+/* 8. Местоположение / локация (loc) */
+.loc {
+    font-family: 'NewYork', serif;
+    font-size: 12px;
+}
+
+/* 9. Время маленькое (time-small) */
+.time-small {
+    font-family: 'NewYork', serif;
+    font-size: 7px;
+}
+
+/* 10. Маленький подзаголовок (small-subheading) */
+.small-subheading {
+    font-family: 'NewYork', serif;
+    font-size: 7px;
+}
+
+/* 11. Номер телефона (phone-number) */
+.phone-number {
+    font-family: 'NewYork', serif;
+    font-size: 10px;
+}
+
+/* 12. Имена последние (final-names) */
+.final-names {
+    font-family: 'Denistina', cursive;
+    font-size: 24px;
+}
+
+/* 13. Таймер / фраза "До начала свадьбы осталось" (countdown) */
+.countdown {
+    font-family: 'NewYork', serif;
+    font-size: 12px;
+}
