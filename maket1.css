@@ -1,0 +1,28 @@
+<style>
+  @font-face {
+    font-family: 'Anticva';
+    src: url('https://cdn.jsdelivr.net/gh/ksenianikulina123-collab/maket1@main/Anticva-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'NewYork';
+    src: url('https://cdn.jsdelivr.net/gh/ksenianikulina123-collab/maket1@main/NewYork.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Denistina';
+    src: url('https://cdn.jsdelivr.net/gh/ksenianikulina123-collab/maket1@main/denistina_en.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  /* Применяем ваши шрифты ко всем текстовым элементам страницы */
+  body, .tn-atom, .t-text, .t-title, .t-descr {
+    font-family: 'Anticva', 'NewYork', 'Denistina', sans-serif;
+  }
+</style>
