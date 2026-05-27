@@ -1,0 +1,71 @@
+/* ===== ПОДКЛЮЧЕНИЕ ШРИФТОВ ===== */
+@font-face {
+    font-family: 'Anticva';
+    src: url('https://rawcdn.githack.com/ksenianikulina123-collab/maket1/bc8969d53446dc5c12e49b6d3089360f52640e5b/Anticva-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NewYork';
+    src: url('https://rawcdn.githack.com/ksenianikulina123-collab/maket1/bc8969d53446dc5c12e49b6d3089360f52640e5b/NewYork.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Denistina';
+    src: url('https://rawcdn.githack.com/ksenianikulina123-collab/maket1/bc8969d53446dc5c12e49b6d3089360f52640e5b/denistina_en.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gogol';
+    src: url('https://rawcdn.githack.com/ksenianikulina123-collab/maket1/bc8969d53446dc5c12e49b6d3089360f52640e5b/ofont.ru_Gogol%20(1).woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ===== КЛАССЫ ДЛЯ ТЕКСТА ===== */
+.bride-name, .groom-name, .tip-text, .main-heading, .final-names {
+    font-family: 'Denistina', cursive;
+}
+.bride-name, .groom-name, .tip-text { font-size: 32px; }
+.main-heading { font-size: 36px; }
+.final-names { font-size: 24px; }
+
+.wedding-date {
+    font-family: 'Anticva', serif;
+    font-size: 48px;
+}
+
+.subheading, .route, .loc, .time-small, .small-subheading, .phone-number, .countdown {
+    font-family: 'NewYork', serif;
+}
+.subheading { font-size: 10px; }
+.route, .loc, .countdown { font-size: 12px; }
+.time-small, .small-subheading { font-size: 7px; }
+.phone-number { font-size: 10px; }
+
+/* Класс new для шрифта Gogol (используйте в Zero Block) */
+.new {
+    font-family: 'Gogol', sans-serif !important;
+}
+
+/* ===== МОБИЛЬНАЯ АДАПТАЦИЯ ===== */
+@media (max-width: 640px) {
+    .bride-name, .groom-name, .tip-text { font-size: 28px; }
+    .main-heading { font-size: 32px; }
+    .final-names { font-size: 22px; }
+    .wedding-date { font-size: 36px; }
+    .subheading { font-size: 14px; }
+    .route, .loc, .countdown { font-size: 14px; }
+    .time-small, .small-subheading { font-size: 12px; }
+    .phone-number { font-size: 16px; }
+}
+@media (max-width: 480px) {
+    .bride-name, .groom-name, .tip-text { font-size: 24px; }
+    .main-heading { font-size: 28px; }
+    .final-names { font-size: 20px; }
+    .wedding-date { font-size: 30px; }
+    .subheading, .route, .loc, .countdown { font-size: 13px; }
+    .phone-number { font-size: 15px; }
+}
