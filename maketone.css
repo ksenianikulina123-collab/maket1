@@ -6,12 +6,6 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'NewYork';
-    src: url('https://rawcdn.githack.com/ksenianikulina123-collab/maket1/bc8969d53446dc5c12e49b6d3089360f52640e5b/NewYork.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'Denistina';
     src: url('https://rawcdn.githack.com/ksenianikulina123-collab/maket1/bc8969d53446dc5c12e49b6d3089360f52640e5b/denistina_en.woff') format('woff');
     font-weight: normal;
@@ -23,8 +17,14 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'NewYorkCustom';
+    src: url('https://rawcdn.githack.com/ksenianikulina123-collab/maket1/48ac3cd18d332e98655e12a6be1b4af7048680d1/NewYork.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
-/* ===== КЛАССЫ ДЛЯ ТЕКСТА ===== */
+/* ===== КЛАССЫ ===== */
 .bride-name, .groom-name, .tip-text, .main-heading, .final-names {
     font-family: 'Denistina', cursive;
 }
@@ -38,14 +38,13 @@
 }
 
 .subheading, .route, .loc, .time-small, .small-subheading, .phone-number, .countdown {
-    font-family: 'NewYork', serif;
+    font-family: 'NewYorkCustom', serif;
 }
 .subheading { font-size: 10px; }
 .route, .loc, .countdown { font-size: 12px; }
 .time-small, .small-subheading { font-size: 7px; }
 .phone-number { font-size: 10px; }
 
-/* Класс new для шрифта Gogol (используйте в Zero Block) */
 .new {
     font-family: 'Gogol', sans-serif !important;
 }
